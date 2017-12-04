@@ -36,8 +36,6 @@ Run application: `rails s`
 Ruby: 2.4.1
 [Grape](https://github.com/ruby-grape/grape): 0.13.0
 
-Install `grape-cli` for convenience: `gem install grape-cli`
-
 Create DB according to `database.yml_sample` if not created before.
 
 Prepare the data:
@@ -46,6 +44,8 @@ Prepare the data:
 * !! **Database should be already created**
 
 Seeds exists only in `rails` app.
+
+run the app: `grape s`
 
 ### Maru
 
