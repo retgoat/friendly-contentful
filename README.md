@@ -29,7 +29,7 @@ Prepare the data:
 * `rake db:migrate`
 * `rake db:seed`
 
-Run application: `rails s`
+Run the app: `rails s`
 
 ### Grape
 
@@ -45,7 +45,7 @@ Prepare the data:
 
 Seeds exists only in `rails` app.
 
-run the app: `grape s`
+Run the app: `grape s`
 
 ### Maru
 
