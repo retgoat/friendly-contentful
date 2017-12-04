@@ -43,9 +43,7 @@ Create DB according to `database.yml_sample` if not created before.
 Prepare the data:
 
 * `bundle install`
-* !! **Next steps needs only if not run during previous step!**
-* `rake db:create`
-* `rake db:migrate`
+* !! **Database should be already created**
 
 Seeds exists only in `rails` app.
 
@@ -58,6 +56,13 @@ Elixir: 1.4.4
 Install elixir for your platform. Here is the [guide](https://elixir-lang.org/install.html)
 
 Prepare the app: `mix deps.get`
+
+Add `inserted_at` column to the table:
+
+```sql
+alter table dummies add column if not exists inserted_at timestamp;
+```
+
 
 Run the app: `iex -S mix`
 
