@@ -17,8 +17,8 @@ TOTAL|15000|1361|7|7849|1854.29|0.00%|36.5|1101.43|30901.3
 ### Rails
 
 Ruby: 2.4.1
+[Rails](https://github.com/rails/rails): 5.1.4
 
-Rails: 5.1.4
 
 Create DB according to `database.yml_sample`
 
@@ -34,8 +34,7 @@ Run application: `rails s`
 ### Grape
 
 Ruby: 2.4.1
-
-Grape: 0.13.0
+[Grape](https://github.com/ruby-grape/grape): 0.13.0
 
 Install `grape-cli` for convenience: `gem install grape-cli`
 
@@ -53,8 +52,7 @@ Seeds exists only in `rails` app.
 ### Maru
 
 Elixir: 1.4.4
-
-Maru: 0.12
+[Maru](https://github.com/elixir-maru/maru): 0.12
 
 
 Install elixir for your platform. Here is the [guide](https://elixir-lang.org/install.html)
