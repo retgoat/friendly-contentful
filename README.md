@@ -57,13 +57,6 @@ Install elixir for your platform. Here is the [guide](https://elixir-lang.org/in
 
 Prepare the app: `mix deps.get`
 
-Add `inserted_at` column to the table:
-
-```sql
-alter table dummies add column if not exists inserted_at timestamp;
-```
-
-
 Run the app: `iex -S mix`
 
 ## Launch apache jmeter
