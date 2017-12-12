@@ -9,6 +9,6 @@ defmodule Dummy do
 
   schema "dummies" do
     field :data, :map
-    timestamps()
+    timestamps(inserted_at: :created_at)
   end
 end
