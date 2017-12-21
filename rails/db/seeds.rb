@@ -5,9 +5,12 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Dummy.destroy_all
 
-100.times do |i|
-  d = { first_name: SecureRandom.hex, last_name: SecureRandom.hex, email: "#{SecureRandom.hex}@foo.bar",
+1000.times do |i|
+  d = { first_name: SecureRandom.hex,
+        last_name: SecureRandom.hex,
+        email: "#{SecureRandom.hex}@foo.bar",
         user_name: SecureRandom.hex }
   Dummy.create!(data: d)
 end

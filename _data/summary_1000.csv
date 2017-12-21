@@ -1,0 +1,5 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,KB/sec,Avg. Bytes
+Thread Group:Maru (Elixir) get all dummies,5000,104,50,2090,119.76,0.00%,2.5,614.48,255320.0
+Thread Group:Rails (Ruby) get all dummies,5000,19271,1846,36272,3027.36,0.00%,2.5,748.19,312404.0
+Thread Group:Grape (Ruby) get all dummies,5000,930,250,8028,665.95,0.00%,2.5,748.45,312311.0
+TOTAL,15000,6768,50,36272,9026.45,0.00%,7.4,2106.92,293345.0
